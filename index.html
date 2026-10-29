@@ -5,34 +5,31 @@
     </head>
     <body>
         <h1>----Biblioteca De Filmes----</h1>
-        <br>
-        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filmes De fantasia:</h2>
-        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Franquia Harry Potter:</h4>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A franquia cinematográfica Harry Potter, um enorme sucesso de cultura pop criado pela autora J.K. Rowling, é composta por 8 filmes principais lançados pela Warner Bros. entre 2001 e 2011, que arrecadaram bilhões de dólares ao adaptar os sete livros originais sob o comando de quatro diretores diferentes: Chris Columbus, Alfonso Cuarón, Mike Newell e David Yates. A narrativa acompanha a jornada de amadurecimento do jovem bruxo Harry Potter (Daniel Radcliffe) e seus amigos Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson) na Escola de Hogwarts, culminando na Segunda Guerra Bruxa contra o terrível Lorde Voldemort. </p>
-        <form>
+         <form>
+            <h2>Cadastro:</h2>
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" placeholder="Digite Seu Nome">
+            <input type="text" id="nome" placeholder="Digite Seu Nome Completo">
+            <br>
+            <br>
             <label for="nasc">Data De Nascimento:</label>
             <input type="date" id="nasc">
             <br>
             <br>
             <label>Gênero:</label>
-            <br>
-            <br>
             <label for="masc">Masculino:</label>
             <input type="radio" id="masc" value="Masculino" name="genêro"> 
             <label for="fem">Feminino:</label>
             <input type="radio" id="fem" value="Masculino" name="genêro"> 
             <br> 
             <br>
-            <label for="horario">Horário:</label>
-            <input type="time id=horario">
-            <br>
-            <br>
-            <label for="avisar">Lembrar Do Atendimento:</label>
-            <input type="checkbox" id="avisar">
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel" pattern="^(\([0-9]{2}\))\s?(9[0-9]{4}|[0-9]{4})-?[0-9]{4}$" placeholder="(00) 00000-0000">
         </form>
-        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mais detalhes sobre os filmes:</h4>
+        <h1>Filmes De fantasia:</h1>
+        <h1>Franquia Harry Potter:</h1>
+        <img src="./imagens/introhp.jpg" alt="Castelo de Hogwarts - Introdução" width="1200" height="500">
+        <p>A franquia cinematográfica Harry Potter, um enorme sucesso de cultura pop criado pela autora J.K. Rowling, é composta por 8 filmes principais lançados pela Warner Bros. entre 2001 e 2011, que arrecadaram bilhões de dólares ao adaptar os sete livros originais sob o comando de quatro diretores diferentes: Chris Columbus, Alfonso Cuarón, Mike Newell e David Yates. A narrativa acompanha a jornada de amadurecimento do jovem bruxo Harry Potter (Daniel Radcliffe) e seus amigos Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson) na Escola de Hogwarts, culminando na Segunda Guerra Bruxa contra o terrível Lorde Voldemort. </p>
+        <h2>Mais detalhes sobre os filmes:</h2>
         <a href="harrypotter01.html">Harry Potter E A Pedra Filosofal</a>
         <br>
         <a href="harrypotter02.html">Harry Potter E A Câmara Secreta</a>
@@ -48,5 +45,7 @@
         <a href="harrypotter07-1.html">Harry Potter E As Relíquias Da Morte - Parte 1</a>
         <br>
         <a href="harrypotter07-2.html">Harry Potter E As Relíquias Da Morte - Parte 2</a>
+        <br>
+        <a href="harrypotter_detalhes.html">Mais Detalhes Sobre A Franquia</a>
     </body>
 </html>
