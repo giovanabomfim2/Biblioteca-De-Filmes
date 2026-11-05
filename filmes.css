@@ -1,0 +1,108 @@
+body {
+    background-color: #171817;
+    color: #E8DDC8;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    padding: 30px;
+}
+
+header{
+    background-color: #30251F;
+    padding: 20px 30px;
+    border-bottom: 3px solid #C5A66A;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    color: #C5A66A;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #856123;
+}
+
+header a{
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C5A66A;
+    border-radius: 50%;
+    color: #E8DDC8;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background-color: #C5A66A;
+    color: #171817;
+}
+.imagem-filme {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+    border: 2px solid #6F5A3E;
+    box-shadow: 0 2px 5px #856123;
+}
+.imagem-filme:hover {
+    transform: scale(1.01);
+    transition: 0.4s;
+}
+#apresentacao h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #856123;
+}
+.tabela-filme {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto 40px;
+    border-collapse: collapse;
+    background-color: #24231F;
+    border: 1px solid #6F5A3E;
+    text-align: center;
+}
+.tabela-filme th {
+    background-color: #30251F;
+    color: #C5A66A;
+    padding: 15px;
+    border: 1px solid #6F5A3E;
+}
+.tabela-filme td {
+    color: #E8DDC8;
+    padding: 15px;
+    border: 1px solid #6F5A3E;
+}
+.tabela-filme a {
+    color: #E8DDC8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tabela-filme a:hover {
+    color: #C5A66A;
+    text-decoration: underline;
+    background-color: #493729;
+    transform: translateY(-5px);
+}

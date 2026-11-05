@@ -1,51 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
     <head>
-        <title>Biblioteca De Filmes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biblioteca de Filmes</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+
     <body>
-        <h1>----Biblioteca De Filmes----</h1>
-         <form>
-            <h2>Cadastro:</h2>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" placeholder="Digite Seu Nome Completo">
-            <br>
-            <br>
-            <label for="nasc">Data De Nascimento:</label>
-            <input type="date" id="nasc">
-            <br>
-            <br>
-            <label>Gênero:</label>
-            <label for="masc">Masculino:</label>
-            <input type="radio" id="masc" value="Masculino" name="genêro"> 
-            <label for="fem">Feminino:</label>
-            <input type="radio" id="fem" value="Masculino" name="genêro">
-            <br> 
-            <br>
-            <label for="tel">Telefone:</label>
-            <input type="tel" id="tel" pattern="^(\([0-9]{2}\))\s?(9[0-9]{4}|[0-9]{4})-?[0-9]{4}$" placeholder="(00) 00000-0000">
-        </form>
-        <h1>Filmes De fantasia:</h1>
-        <h1>Franquia Harry Potter:</h1>
-        <img src="./imagens/introhp.jpg" alt="Castelo de Hogwarts - Introdução" width="1200" height="500">
-        <p>A franquia cinematográfica Harry Potter, um enorme sucesso de cultura pop criado pela autora J.K. Rowling, é composta por 8 filmes principais lançados pela Warner Bros. entre 2001 e 2011, que arrecadaram bilhões de dólares ao adaptar os sete livros originais sob o comando de quatro diretores diferentes: Chris Columbus, Alfonso Cuarón, Mike Newell e David Yates. A narrativa acompanha a jornada de amadurecimento do jovem bruxo Harry Potter (Daniel Radcliffe) e seus amigos Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson) na Escola de Hogwarts, culminando na Segunda Guerra Bruxa contra o terrível Lorde Voldemort. </p>
-        <h2>Mais detalhes sobre os filmes:</h2>
-        <a href="harrypotter01.html">Harry Potter E A Pedra Filosofal</a>
-        <br>
-        <a href="harrypotter02.html">Harry Potter E A Câmara Secreta</a>
-        <br>
-        <a href="harrypotter03.html">Harry Potter E O Prisioneiro De Askaban</a>
-        <br>
-        <a href="harrypotter04.html">Harry Potter E O Cálice De Fogo</a>
-        <br>
-        <a href="harrypotter05.html">Harry Potter E A Ordem Da Fênix</a>
-        <br>
-        <a href="harrypotter06.html">Harry Potter E O Enigma Do Príncipe</a>
-        <br>
-        <a href="harrypotter07-1.html">Harry Potter E As Relíquias Da Morte - Parte 1</a>
-        <br>
-        <a href="harrypotter07-2.html">Harry Potter E As Relíquias Da Morte - Parte 2</a>
-        <br>
-        <a href="harrypotter_detalhes.html">Mais Detalhes Sobre A Franquia</a>
+
+        <header>
+            <h1>Biblioteca de Filmes</h1>
+
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#franquia">Filmes</a>
+                <a href="#mais-detalhes">Sobre a franquia</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="inicio">
+                <h2>Bem-vindo ao mundo da fantasia</h2>
+
+                <p>
+                    Explore as histórias arrebatadoras, os personagens marcantes e os universos fascinantes que transformaram o cinema.
+                </p>
+
+                <img class="imagem-inicio" src="./imagens/introhp.jpg" alt="Castelo de Hogwarts">
+            </section>
+
+            <section id="franquia">
+                <h2>Franquia Harry Potter</h2>
+
+                <p>
+                    A franquia cinematográfica Harry Potter, um enorme sucesso de cultura pop criado pela autora J.K. Rowling, é composta por 8 filmes principais lançados pela Warner Bros. entre 2001 e 2011, que adaptam os sete livros originais. 
+                </p>
+                <br>
+                <p>
+                    A narrativa acompanha a jornada de amadurecimento do jovem bruxo Harry Potter e seus amigos Rony Weasley e Hermione Granger na Escola de Hogwarts, culminando na Segunda Guerra Bruxa contra Lord Voldemort.
+                </p>
+            </section>
+
+            <section id="filmes">
+                <h2>Conheça os filmes</h2>
+
+                <ul class="lista-filmes">
+                    <li>
+                        <a href="harrypotter01.html">Harry Potter e a Pedra Filosofal</a>
+                    </li>
+
+                    <li>
+                        <a href="harrypotter02.html">Harry Potter e a Câmara Secreta</a>
+                    </li>
+
+                    <li>
+                        <a href="harrypotter03.html">Harry Potter e o Prisioneiro de Azkaban</a>
+                    </li>
+
+                    <li>
+                        <a href="harrypotter04.html">Harry Potter e o Cálice de Fogo</a>
+                    </li>
+
+                    <li>
+                        <a href="harrypotter05.html">Harry Potter e a Ordem da Fênix</a>
+                    </li>
+
+                    <li>
+                        <a href="harrypotter06.html">Harry Potter e o Enigma do Príncipe</a>
+                    </li>
+
+                    <li>
+                        <a href="harrypotter07-1.html">Harry Potter e as Relíquias da Morte - Parte 1</a>
+                    </li>
+
+                    <li>
+                        <a href="harrypotter07-2.html">Harry Potter e as Relíquias da Morte - Parte 2</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="mais-detalhes">
+                <h2>Explore mais sobre o universo mágico</h2>
+
+                <p>
+                    Seu passaporte para Hogwarts está pronto! Mais do que uma história sobre magia, Harry Potter nos apresenta um universo repleto de amizade, coragem, descobertas e mistérios, que continua encantando milhões de pessoas ao redor do mundo. Afinal, Hogwarts sempre estará de portas abertas para aqueles que a ela recorrerem. Prepare-se para reviver essa jornada e descobrir tudo o que existe além das telas!
+                </p>
+
+                <a href="harrypotter_detalhes.html">
+                    Descubra mais sobre Harry Potter
+                </a>
+            </section>
+        </main>
     </body>
 </html>
