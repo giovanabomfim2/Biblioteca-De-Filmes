@@ -106,3 +106,46 @@ header a:hover {
     background-color: #493729;
     transform: translateY(-5px);
 }
+#trailer-sinopse {
+    display: flex;
+    gap: 30px;
+    background-color: #24231F;
+    margin: 40px 0;
+    align-items: stretch;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #493729;
+    box-shadow: 2px 2px 5px #856123;
+}
+#trailer,
+#sinopse {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#trailer h2 {
+    color: #C5A66A;
+    font-size: 26px;
+    margin: 0 0 25px;
+    text-align: left;
+    text-shadow: 2px 2px 5px #856123;
+
+}
+#sinopse h2 {
+    color: #C5A66A;
+    font-size: 26px;
+    margin: 25px 0 25px;
+    text-align: left;
+    text-shadow: 2px 2px 5px #856123;
+
+}
+#trailer iframe {
+   
+    border: none;
+    border-radius: 10px;
+    display: block;
+}
+#sinopse p:first-of-type {
+    margin-top: 0;
+}
